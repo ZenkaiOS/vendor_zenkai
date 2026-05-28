@@ -4,9 +4,9 @@ PRODUCT_BRAND := ZenkaiOS
 PRODUCT_SYSTEM_NAME := ZenkaiOS
 PRODUCT_MANUFACTURER := ZenkaiOS
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="ZenkaiOS"
+ZENKAI_VERSION := 1.0
+ZENKAI_CODENAME := Ichi
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.zenkai.version=1.0 \
-    ro.zenkai.codename=Ichi
+    ro.zenkai.version=$(ZENKAI_VERSION) \
+    ro.zenkai.codename=$(ZENKAI_CODENAME)
