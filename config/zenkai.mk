@@ -2,3 +2,4 @@
 
 PRODUCT_PACKAGES += \
     Launcher
+    LMC

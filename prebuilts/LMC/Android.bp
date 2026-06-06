@@ -2,4 +2,5 @@ android_app_import {
     name: "LMC",
     apk: "LMC.apk",
     presigned: true,
+    privileged: true,
 }
